@@ -13,7 +13,17 @@ public class CheckGround : MonoBehaviour
     void Update()
     {
         
+       /* OnCollisionStay2D();*/
     }
 
 
+
+/*public bool OnCollisionStay2D(Collision2D collision)
+    {
+      if (PlayerController.collision.collider.CompareTag("ground"))
+        {
+            return true;
+
+        }
+}*/
 }

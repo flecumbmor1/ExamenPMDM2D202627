@@ -6,16 +6,18 @@ TagManager:
   tags:
   - Ground
   - Enemy
+  - Clouds
+  - Water
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Background
   - Water
   - UI
-  - 
-  - 
-  - 
+  - ForeGround
+  - Instances
+  - Water
   - 
   - 
   - 
@@ -42,4 +44,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3721835665
+    locked: 0
+  - name: Instances
+    uniqueID: 1147965249
+    locked: 0
+  - name: ForeGround
+    uniqueID: 2453727149
     locked: 0
